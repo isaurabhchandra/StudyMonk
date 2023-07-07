@@ -1,0 +1,131 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    color: #fff;
+   background-color: black;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #dd31a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Features section styles */
+  #features h2, #benefits h2, #contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(26, 72, 222);
+    font-size: 30px;
+    background-color: rgb(24, 223, 30);
+  }
+  
+  .feature, .benefit {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 40px;
+    
+  }
+  
+  .feature img, .benefit img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .feature h3, .benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact section styles */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact form input, #contact form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
